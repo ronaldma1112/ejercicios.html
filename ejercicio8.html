@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es-PE">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/../css/bootstrap.min.css" rel="stylesheet">
+    <title>Modal de Registro</title>
+</head>
+
+<body>
+    <div class="container mt-5 text-center">
+        <h2>Modal de Registro</h2>
+        <button type="button" class="btn btn-primary" data-bs- toggle="modal" data-bs-target="#registerModal">
+            Registrarse
+        </button>
+        <div class="modal fade" id="registerModal" tabindex="-1" aria- labelledby="registerModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="registerModalLabel">Registro</h5>
+                        <button type="button" class="btn-close" data-bs- dismiss="modal" aria-label="Close"></button>
+                        required>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nombre</label> <input type="text"
+                                    class="form-control" id="name" </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo
+                                        Electrónico</label>
+                                    required>
+                                    <input type="email" class="form-control" id="email" </div>
+                                    <div class="mb-3">
+                                        label">Contraseña</label>
+                                        <label for="password" class="form- 
+<input type=" password" class="form-control" id="password" required>
+                                    </div>
+                                    <button type="submit" class="btn btn- 
+primary">Registrarse</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0- 
+alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
